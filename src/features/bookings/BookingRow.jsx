@@ -12,6 +12,7 @@ import Menus from '../../ui/Menus';
 import Modal from '../../ui/Modal';
 import Table from '../../ui/Table';
 import Tag from '../../ui/Tag';
+
 import { formatCurrency, formatDistanceFromNow } from '../../utils/helpers';
 import { useCheckout } from '../check-in-out/useCheckout';
 import { useDeleteBooking } from './useDeleteBooking';
