@@ -1,82 +1,56 @@
-# The Wild Oasis
+# 🌴 The Wild Oasis
 
-The Wild Oasis is a desktop version only hotel management dashboard built with React.
-It includes authentication, bookings management, cabin management, users management, account settings, and a dashboard with charts and key hotel metrics.
+A modern hotel management dashboard built with React, designed to manage cabins, bookings, users, and hotel settings efficiently through a clean and intuitive interface.
 
----
-
-## Live Demo
-
-https://the-wild-oasis-demo-test.vercel.app/
+> ⚠️ **Desktop version only** — This application is optimized for desktop screens and is not responsive.
 
 ---
 
-## Screenshots
+## 🚀 Live Demo
 
-### Login Page
+👉 https://the-wild-oasis-demo-test.vercel.app/
 
-![Login Page](./screenshots/login.png)
+---
 
-### Dashboard
+## 📸 Screenshots
 
-![Dashboard](./screenshots/dashboard.png)
+### 🔐 Login
 
-### Bookings
+![Login](./screenshots/login.png)
+
+---
+
+### 📊 Dashboard (Dark Mode)
+
+![Dashboard Dark](./screenshots/dashboard-dark.png)
+
+### 📊 Dashboard (Light Mode)
+
+![Dashboard Light](./screenshots/dashboard-light.png)
+
+---
+
+### 📅 Bookings
 
 ![Bookings](./screenshots/bookings.png)
 
-### Cabins
+---
+
+### 🏡 Cabins
 
 ![Cabins](./screenshots/cabins.png)
 
-### Users
+---
 
-![Users](./screenshots/users.png)
-
-### Settings
-
-![Settings](./screenshots/settings.png)
-
-### Account
+### 👤 Account Settings
 
 ![Account](./screenshots/account.png)
 
 ---
 
-## Features
+## 📁 Project Structure
 
-* User authentication
-* Hotel dashboard with KPIs and charts
-* Bookings management
-* Cabins management
-* Users management
-* Account editing
-* Hotel settings management
-* Dark and light mode support
-* Sample data upload
-* Responsive navigation layout for desktop screens
-
----
-
-## Tech Stack
-
-* React 19
-* Vite 7
-* React Router
-* Supabase
-* TanStack React Query
-* React Hook Form
-* Recharts
-* date-fns
-* react-hot-toast
-* react-icons
-* styled-components
-
----
-
-## Project Structure
-
-```bash
+```
 src/
 ├── context/
 ├── data/
@@ -88,45 +62,82 @@ src/
 ├── ui/
 ├── utils/
 ├── App.jsx
-└── main.jsx
+├── main.jsx
 ```
 
 ---
 
-## Available Scripts
+## ✨ Features
 
-```bash
-npm run dev
-npm run build
-npm run preview
-npm run lint
-```
+* 🔐 Authentication system (Login / Logout)
+* 📊 Dashboard with analytics and charts
+* 📅 Manage bookings (filter, status, sorting)
+* 🏡 Cabin management (add, edit, pricing, discounts)
+* 👥 User management
+* ⚙️ Hotel settings configuration
+* 🌙 Dark & Light mode support
+* 📈 Interactive data visualization
 
 ---
 
-## Setup
+## 🛠️ Tech Stack
+
+* ⚛️ React
+* ⚡ Vite
+* 🎨 Styled Components
+* 📊 Recharts
+* 🔥 Supabase (Backend & Auth)
+* 🧠 React Query
+* 📦 React Router
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/the-wild-oasis.git
 cd the-wild-oasis
+```
+
+### 2. Install dependencies
+
+```bash
 npm install
+```
+
+### 3. Run the project
+
+```bash
 npm run dev
 ```
 
 ---
 
-## Deployment
+## 🔑 Demo Credentials
 
-This project is configured for Vercel deployment with SPA rewrites, so direct navigation and refresh on internal routes work correctly.
-
----
-
-## Notes
-
-This project is designed for desktop screens only.
+```bash
+Email: test@example.com
+Password: 12345678
+```
 
 ---
 
-## Author
+## 📌 Notes
 
-Mohamed Salama
+* Desktop version only (not responsive)
+* Built as part of a React learning journey
+* Focused on real-world dashboard experience
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Salama**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub!
