@@ -119,7 +119,7 @@ npm run dev
 
 ```bash
 Email: test@example.com
-Password: 12345678
+Password: 76587658
 ```
 
 ---
